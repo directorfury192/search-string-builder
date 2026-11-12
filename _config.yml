@@ -1,0 +1,5 @@
+title: Search String Builder
+description: A librarian-style ChatGPT plugin for building Scopus, Web of Science and EBSCO search strings
+theme: jekyll-theme-minimal
+exclude:
+  - plugin
