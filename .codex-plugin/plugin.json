@@ -1,0 +1,18 @@
+{
+  "name": "search-string-builder",
+  "version": "1.0.0",
+  "description": "Librarian-style assistant that interviews researchers step by step and builds advanced search strings for Scopus, Web of Science Core Collection and EBSCO Academic Search Complete. It can translate strings between databases and be taught new databases. Based on prompts by Arielle Miller.",
+  "author": {
+    "name": "Arielle Miller",
+    "email": "drajmiller@proton.me"
+  },
+  "license": "CC-BY-NC-4.0",
+  "skills": "./skills",
+  "interface": {
+    "capabilities": [],
+    "developerName": "Arielle Miller",
+    "displayName": "Search String Builder",
+    "shortDescription": "Build accurate search strings for Scopus, Web of Science & EBSCO",
+    "longDescription": "Librarian-style assistant that interviews researchers step by step and builds advanced search strings for Scopus, Web of Science Core Collection and EBSCO Academic Search Complete. It can translate strings between databases and be taught new databases. Based on prompts by Arielle Miller."
+  }
+}
