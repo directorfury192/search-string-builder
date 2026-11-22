@@ -1,18 +1,35 @@
 {
   "name": "search-string-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Librarian-style assistant that interviews researchers step by step and builds advanced search strings for Scopus, Web of Science Core Collection and EBSCO Academic Search Complete. It can translate strings between databases and be taught new databases. Based on prompts by Arielle Miller.",
   "author": {
     "name": "Arielle Miller",
-    "email": "drajmiller@proton.me"
+    "email": "drajmiller@proton.me",
+    "url": "https://ariellemiller.com"
   },
+  "homepage": "https://github.com/directorfury192/search-string-builder",
+  "repository": "https://github.com/directorfury192/search-string-builder",
   "license": "CC-BY-NC-4.0",
+  "keywords": ["literature review", "systematic review", "search strategy", "Scopus", "Web of Science", "EBSCO", "library"],
   "skills": "./skills",
   "interface": {
-    "capabilities": [],
-    "developerName": "Arielle Miller",
     "displayName": "Search String Builder",
-    "shortDescription": "Build accurate search strings for Scopus, Web of Science & EBSCO",
-    "longDescription": "Librarian-style assistant that interviews researchers step by step and builds advanced search strings for Scopus, Web of Science Core Collection and EBSCO Academic Search Complete. It can translate strings between databases and be taught new databases. Based on prompts by Arielle Miller."
+    "shortDescription": "Literature search strings",
+    "longDescription": "Search String Builder works like a research librarian at your side. It interviews you one step at a time about your key concepts, keywords, years, subject areas and exclusions. Then it builds an advanced search string you can paste straight into Scopus, Web of Science Core Collection or EBSCO Academic Search Complete.\n\nEach database has its own rules, and small syntax mistakes quietly return the wrong results. The plugin handles those rules for you: field tags, wildcards, US/UK spellings, exact-match syntax, date formats, operator limits and subject filters. Every string comes with a plain-language explanation of how it was built, plus tips for when you get too many or too few results.\n\nIt works for any discipline, including the sciences, engineering, social sciences, humanities, health and religion.\n\nWhat you can do:\n- Build a new search for one database, or for all three at once\n- Translate an existing search string from one database to another\n- Add a profile for another database, such as IEEE Xplore or PubMed, from that database's official help pages\n\nThe plugin builds search strings. It doesn't run searches or access your library's databases. It won't choose your research concepts for you, and it recommends checking those with a subject librarian. Created by Arielle Miller.",
+    "developerName": "Arielle Miller",
+    "category": "Education & Research",
+    "capabilities": [],
+    "websiteURL": "https://ariellemiller.com",
+    "supportURL": "https://github.com/directorfury192/search-string-builder/issues",
+    "privacyPolicyURL": "https://directorfury192.github.io/search-string-builder/PRIVACY",
+    "termsOfServiceURL": "https://directorfury192.github.io/search-string-builder/TERMS",
+    "defaultPrompt": [
+      "Build a search string for Scopus",
+      "Build the same search for Scopus, Web of Science and EBSCO",
+      "Translate my search string to another database"
+    ],
+    "brandColor": "#3A22C0",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
   }
 }
