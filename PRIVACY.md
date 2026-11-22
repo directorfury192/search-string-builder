@@ -1,6 +1,6 @@
 # Search String Builder: Privacy Policy
 
-**Effective date:** November 11, 2026
+**Effective date:** November 22, 2026
 
 Search String Builder is a skills-only plugin for ChatGPT and Codex, created by Arielle Miller. It gives ChatGPT a set of instructions and reference files for building literature-database search strings.
 
@@ -16,13 +16,33 @@ When you use the plugin, your conversation happens inside ChatGPT or Codex, and 
 
 If you attach a file, such as a database profile, ChatGPT reads it within your conversation. The developer does not receive it.
 
+## Summary
+
+| Question | Answer |
+| --- | --- |
+| What personal data does the plugin collect? | None |
+| Who receives data from the plugin? | No one. The plugin has no server and sends nothing to the developer or third parties. |
+| How long is data kept? | The plugin keeps nothing. Your chat history is kept by OpenAI under your ChatGPT settings. |
+| Does the plugin use cookies or tracking? | No |
+| Is data sold or used for advertising? | No |
+
+## Your choices
+
+- You can remove the plugin at any time from ChatGPT's **Plugins** page.
+- You can view, delete or export your chat history, and manage whether chats are used to train models, in your ChatGPT settings. These controls are provided by OpenAI.
+- Support emails can be deleted on request: write to the contact address below.
+
+## Children
+
+The plugin is meant for researchers and students who meet ChatGPT's own age requirements. It does not knowingly collect information from anyone.
+
 ## This website
 
 This page is hosted on GitHub. GitHub may collect technical information, such as IP addresses, when you visit, under GitHub's privacy statement: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. The developer does not add any tracking to these pages.
 
 ## Contacting the developer
 
-If you email us or open a GitHub issue for support, we use your contact details and message only to respond to you, and we do not share them.
+If you email us or open a GitHub issue for support, we use your contact details and message only to respond to you, and we do not share them. Support emails are kept only as long as needed to resolve your question. GitHub issues are public and are kept by GitHub.
 
 ## Changes
 

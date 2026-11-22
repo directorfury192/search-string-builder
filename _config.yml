@@ -3,3 +3,4 @@ description: A librarian-style ChatGPT plugin for building Scopus, Web of Scienc
 theme: jekyll-theme-minimal
 exclude:
   - plugin
+  - dist

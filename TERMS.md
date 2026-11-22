@@ -1,6 +1,6 @@
 # Search String Builder: Terms of Use
 
-**Effective date:** November 11, 2026
+**Effective date:** November 22, 2026
 
 By using Search String Builder ("the plugin"), you agree to these terms.
 

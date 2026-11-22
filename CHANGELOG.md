@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.1 (November 2026)
+
+Listing and packaging updates for the ChatGPT plugin directory. The skill's behavior is unchanged.
+
+- Shorter subtitle ("Literature search strings") to meet the 30-character limit.
+- Category set to Education & Research.
+- Website, support, privacy policy and terms links added to the plugin package.
+- App icon and logo added to the plugin package.
+- Three starter prompts added.
+- Privacy policy expanded with a summary table, your choices, and data retention.
+
 ## 1.0.0 (November 2026)
 
 First public release.

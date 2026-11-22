@@ -1,3 +1,5 @@
+<img src="logo.png" alt="Search String Builder logo" width="96" align="right">
+
 # Search String Builder
 
 **A librarian-style ChatGPT plugin that builds accurate advanced search strings for Scopus, Web of Science Core Collection and EBSCO Academic Search Complete.**
@@ -37,9 +39,24 @@ It works for **any discipline**: the sciences, engineering, social sciences, hum
 - **Choose your research concepts.** It recommends checking your concepts with a subject librarian.
 - **Make up subject headings.** For EBSCO it uses only the headings you find in the database's Subjects list.
 
+## Install it
+
+> **Directory status:** OpenAI is not currently accepting new skills-only plugins in the public ChatGPT plugin directory. Until it reopens, install the plugin from this repository using one of the options below.
+
+**Option A: ChatGPT Plugin Creator (personal accounts, including Plus)**
+
+1. Download [`dist/search-string-builder-1.0.1-plugin.zip`](dist/search-string-builder-1.0.1-plugin.zip). Click the file, then **Download raw file**.
+2. In ChatGPT, switch to **Work** mode and start a new chat.
+3. Type `@Plugin Creator`, attach the ZIP, and send: *Install this plugin from the attached ZIP without changing any files.*
+4. Delete the ZIP from your ChatGPT **Library** afterwards, so it doesn't appear in the @ list next to the plugin.
+
+**Option B: Skills tab (Business, Enterprise and Edu workspaces)**
+
+Go to **Plugins > Skills > Create > Upload from your computer** and upload the same ZIP. Workspace owners can then share it with colleagues or the whole workspace.
+
 ## Using it in ChatGPT
 
-1. Install **Search String Builder** from the ChatGPT Plugins directory (sidebar > **Plugins**).
+1. Install the plugin (see above).
 2. In a new chat, type `@Search String Builder` and choose the entry listed under **Plugins**, not **Files**.
 3. Type one of the example prompts above and answer the questions.
 4. Copy the final string into the database's Advanced Search box. Check the database name in the plugin's answer for exactly where to paste it.
@@ -71,10 +88,14 @@ search-string-builder/
 │   ├── USER_GUIDE.md         ← how to use the plugin
 │   ├── ADDING_A_DATABASE.md  ← how to add a new database profile
 │   └── HOW_IT_WORKS.md       ← design notes and syntax decisions
+├── logo.png
+├── dist/
+│   └── search-string-builder-1.0.1-plugin.zip   ← ready-to-install plugin
 └── plugin/
     └── search-string-builder/        ← the plugin package (zip this folder's contents to upload)
         ├── plugin.json
         ├── .codex-plugin/plugin.json
+        ├── assets/                   ← icon and logo
         └── skills/search-string-builder/
             ├── SKILL.md              ← the instructions
             ├── references/           ← shared workflow + one profile per database
